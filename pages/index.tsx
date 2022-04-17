@@ -4,7 +4,11 @@ import { Layout } from "@/components/Layout";
 import { NextPage } from "next";
 
 const Page: NextPage = () => (
-  <Layout title="Home Page" description="description" centered>
+  <Layout
+    title="Kilian Braquin"
+    description="Kilian Braquin | I'm a full stack developer"
+    centered
+  >
     <HomePresentation />
   </Layout>
 );

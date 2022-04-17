@@ -16,11 +16,10 @@ const App: FC<PropsWithChildren<AppProps>> = ({ Component, pageProps }) => {
         canonical={url}
         openGraph={{
           type: "website",
-          locale: "en_IE",
+          locale: "en_US",
           url,
           description: "description",
           site_name: "Kilian Braquin | kbraquin.com",
-          images: [],
         }}
       />
       <Component {...pageProps} />
