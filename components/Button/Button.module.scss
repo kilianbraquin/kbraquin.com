@@ -1,0 +1,13 @@
+.button {
+  background-color: $primary-1;
+  border: 1px solid $primary-7;
+  color: $primary-11;
+  padding: 8px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    border-color: $primary-8;
+  }
+}
